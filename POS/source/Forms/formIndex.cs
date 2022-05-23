@@ -409,7 +409,7 @@ namespace POS
 
                     ProductData.Proname.Add(lsProName[i]);
                     ProductData.Proamount.Add(itm);
-                    ProductData.Proprice.Add(lsProSell);
+                    ProductData.Proprice.Add(lsProSell[i]);
                 }
                 i++;
             }
