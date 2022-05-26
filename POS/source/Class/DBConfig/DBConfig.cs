@@ -9,10 +9,10 @@ namespace POS
 {
     static class DBConfig
     {
-        private static string server = "LAPTOP-1GOL2OSJ\\DEMODB";
+        private static string server = "HP\\DEMODB";
         private static string database = "ElectronicsDB";
-        private static string user = "user1";
-        private static string password = "mypass1";
+        private static string user = "user2";
+        private static string password = "mypass2";
         private static string strConnect = $"server = {server};" +
                                            $"database = {database};" +
                                            $"user id = {user};" +

@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPayment.Designer.cs">
+      <DependentUpon>formPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="source\Class\MemberData\MemberData.cs" />
     <Compile Include="source\Forms\ProductDetail\ProductDetail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formPayment.resx">
+      <DependentUpon>formPayment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="source\Forms\ProductDetail\ProductDetail.resx">
       <DependentUpon>ProductDetail.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +110,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="source\Forms\Payment\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

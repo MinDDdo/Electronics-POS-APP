@@ -13,7 +13,6 @@ namespace POS
     public partial class ProductDetail : Form
     {
         private double totalPrice;
-        static bool canBuy = false;
         public ProductDetail()
         {
             InitializeComponent();
@@ -64,28 +63,57 @@ namespace POS
             lblTotal.Text = totalPrice.ToString("#,#.00");
         }
 
-        private void lblCal_Click(object sender, EventArgs e)
-        {
-            double amount = Convert.ToDouble(txtCash.Text);
+        //private void lblCal_Click(object sender, EventArgs e)
+        //{
+        //    double amount = Convert.ToDouble(txtCash.Text);
 
-            double change = amount - totalPrice;
-            if(change >= 0)
-            {
-                txtChange.Text = change.ToString("#,#.00");
-                canBuy = true;
-            }
-            else
-            {
-                MessageBox.Show("Money not enough");
-            }
-        }
+        //    double change = amount - totalPrice;
+        //    if(change >= 0)
+        //    {
+        //        txtChange.Text = change.ToString("#,#.00");
+        //        canBuy = true;
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Money not enough");
+        //    }
+        //}
 
         private void lblConfirm_Click(object sender, EventArgs e)
         {
-            if (canBuy)
-            {
-                MessageBox.Show("Success !");
-            }
+            var payment = new formPayment();
+            payment.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAmount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTotal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
