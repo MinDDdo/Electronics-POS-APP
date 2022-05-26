@@ -80,5 +80,22 @@ namespace POS
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
+
+        private void lblCash_Click(object sender, EventArgs e)
+        {
+            var form = new formCashcs();
+            form.Show();
+            this.Hide();
+        }
+
+        private void lblDebit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblbank_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

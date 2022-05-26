@@ -113,6 +113,7 @@ namespace POS
             this.lblCash.Size = new System.Drawing.Size(219, 34);
             this.lblCash.TabIndex = 26;
             this.lblCash.Text = "             Cash";
+            this.lblCash.Click += new System.EventHandler(this.lblCash_Click);
             // 
             // groupBox1
             // 
@@ -391,6 +392,7 @@ namespace POS
             this.lblDebit.Size = new System.Drawing.Size(219, 34);
             this.lblDebit.TabIndex = 27;
             this.lblDebit.Text = "   Debit/Master Card";
+            this.lblDebit.Click += new System.EventHandler(this.lblDebit_Click);
             // 
             // lblbank
             // 
@@ -403,6 +405,7 @@ namespace POS
             this.lblbank.Size = new System.Drawing.Size(219, 34);
             this.lblbank.TabIndex = 29;
             this.lblbank.Text = "      Bank Transfer";
+            this.lblbank.Click += new System.EventHandler(this.lblbank_Click);
             // 
             // formPayment
             // 
