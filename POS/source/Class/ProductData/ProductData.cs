@@ -15,5 +15,15 @@ namespace POS
         public static List<double> Proprice = new List<double>();
         public static List<int> amountBack = new List<int>();
         public static double ProTotal;
+
+        public static void ClearData()
+        {
+            ProID.Clear();
+            Proname.Clear();
+            amountBack.Clear();
+            amount.Clear();
+            Proamount.Clear();
+            Proprice.Clear();
+        }
     }
 }

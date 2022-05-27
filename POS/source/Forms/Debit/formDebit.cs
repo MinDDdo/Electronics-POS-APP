@@ -8,69 +8,58 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+
 namespace POS
 {
-    public partial class formCashcs : Form
+    public partial class formDebit : Form
     {
         double totalPrice;
-        bool canBuy = false;
-        string pay = "pay by cash";
-        public formCashcs()
+        string pay = "Pay by Mastercard";
+        public formDebit()
         {
             InitializeComponent();
         }
 
-        private void formCashcs_Load(object sender, EventArgs e)
+        private void formDebit_Load(object sender, EventArgs e)
         {
-            ShowTotalDetail();
-        }
-        private void ShowTotalDetail()
-        {
-            lblAmount.Text = ProductData.Proname.Count.ToString("#,#");
-            totalPrice = 0;
-            for (int i = 0; i < ProductData.Proname.Count; i++)
-            {
-                totalPrice += ProductData.Proamount[i] * ProductData.Proprice[i];
-            }
-            lblTotal.Text = totalPrice.ToString("#,#.00");
+            showTotalDetail();
         }
 
         private void lblBack_Click(object sender, EventArgs e)
         {
-            var from = new formPayment();
-            from.Show();
+            MemberData.clearData();
+
+            var form = new formPayment();
+            form.Show();
             this.Hide();
         }
-        private void lblCal_Click(object sender, EventArgs e)
+        private void showTotalDetail()
         {
-            double amount = Convert.ToDouble(txtCash.Text);
+            lblAmount.Text = ProductData.Proname.Count.ToString("#,#");
 
-            double change = amount - totalPrice;
-            if (change >= 0)
+            totalPrice = 0;
+            for (int i = 0; i < ProductData.Proname.Count; i++)
             {
-                txtChange.Text = change.ToString("#,#.00");
-                canBuy = true;
+                totalPrice += ProductData.amount[i] * ProductData.Proprice[i];
             }
-            else
-            {
-                MessageBox.Show("Money not enough");
-            }
+            lblTotal.Text = totalPrice.ToString("#,#.00");
         }
 
-        private void btnConfirm_Click(object sender, EventArgs e)
+        private void lblConfirm_Click(object sender, EventArgs e)
         {
-            if (canBuy)
-            {
-                putProductDB();
-                postReq();
+            putProductDB();
+            postReq();
 
-                MessageBox.Show("Purchase success ", "Notification");
+            // Clear
+            MemberData.clearData();
+            ProductData.ClearData();
 
-                //Go to home form
-                var form = new formIndex();
-                form.Show();
-                this.Hide();
-            }
+            MessageBox.Show("Purchase success", "Notification");
+
+            // Go to Home form
+            var form = new formIndex();
+            form.Show();
+            this.Hide();
         }
         private void putProductDB()
         {

@@ -46,16 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="source\Forms\Debit\formDebit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="source\Forms\Debit\formDebit.Designer.cs">
+      <DependentUpon>formDebit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="source\Forms\BankTransfer\formBankTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="source\Forms\BankTransfer\formBankTransfer.Designer.cs">
+      <DependentUpon>formBankTransfer.cs</DependentUpon>
+    </Compile>
     <Compile Include="source\Forms\Cash\formCashcs.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="source\Forms\Cash\formCashcs.Designer.cs">
       <DependentUpon>formCashcs.cs</DependentUpon>
     </Compile>
-    <Compile Include="formPayment.cs">
+    <Compile Include="source\Forms\Payment\formPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formPayment.Designer.cs">
+    <Compile Include="source\Forms\Payment\formPayment.Designer.cs">
       <DependentUpon>formPayment.cs</DependentUpon>
     </Compile>
     <Compile Include="source\Class\MemberData\MemberData.cs" />
@@ -82,7 +94,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="formPayment.resx">
+    <EmbeddedResource Include="source\Forms\Debit\formDebit.resx">
+      <DependentUpon>formDebit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="source\Forms\BankTransfer\formBankTransfer.resx">
+      <DependentUpon>formBankTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="source\Forms\Payment\formPayment.resx">
       <DependentUpon>formPayment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="source\Forms\Cash\formCashcs.resx">
@@ -119,8 +137,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="source\Forms\Payment\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

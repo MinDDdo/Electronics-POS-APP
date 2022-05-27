@@ -51,6 +51,16 @@ namespace POS
             {
                 fetchMemberData();
             }
+            if(MemberData.status == "L")
+            {
+                MessageBox.Show("This member account has locked", "Error");
+                MemberData.clearData();
+                lblMemname.Text = "Not member";
+            }
+            if(MemberData.status == "U")
+            {
+                MessageBox.Show("Access into member account success", "Notification");
+            }
         }
         private void fetchMemberData()
         {
@@ -68,6 +78,7 @@ namespace POS
                 DataRow[] dr = tb.Select(sql);
                 lblMemname.Text = dr[0]["fname"].ToString() + "" + dr[0]["lname"].ToString();
                 MemberData.id_pur = dr[0]["member_id"].ToString();
+                MemberData.status = dr[0]["member_status"].ToString();
             }
             catch(Exception ex)
             {
@@ -90,12 +101,26 @@ namespace POS
 
         private void lblDebit_Click(object sender, EventArgs e)
         {
-
+            var form = new formDebit();
+            form.Show();
+            this.Hide();
         }
 
         private void lblbank_Click(object sender, EventArgs e)
         {
+            var form = new BankTransfer();
+            form.Show();
+            this.Hide();
+        }
 
+        private void lblLogout_Click(object sender, EventArgs e)
+        {
+            MemberData.clearData();
+            ProductData.ClearData();
+
+            var form = new formLogin();
+            form.Show();
+            this.Hide();
         }
     }
 }

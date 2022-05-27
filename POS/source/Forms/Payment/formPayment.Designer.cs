@@ -52,12 +52,12 @@ namespace POS
             this.label7 = new System.Windows.Forms.Label();
             this.lblMemname = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.txtPhoneMem = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lblDebit = new System.Windows.Forms.Label();
             this.lblbank = new System.Windows.Forms.Label();
+            this.lblDebit = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -213,6 +213,7 @@ namespace POS
             this.lblLogout.Size = new System.Drawing.Size(132, 34);
             this.lblLogout.TabIndex = 16;
             this.lblLogout.Text = "     Log out";
+            this.lblLogout.Click += new System.EventHandler(this.lblLogout_Click);
             // 
             // panel3
             // 
@@ -335,6 +336,16 @@ namespace POS
             this.panel4.Size = new System.Drawing.Size(297, 273);
             this.panel4.TabIndex = 29;
             // 
+            // txtPhoneMem
+            // 
+            this.txtPhoneMem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.txtPhoneMem.Location = new System.Drawing.Point(16, 103);
+            this.txtPhoneMem.MaxLength = 10;
+            this.txtPhoneMem.Name = "txtPhoneMem";
+            this.txtPhoneMem.Size = new System.Drawing.Size(253, 30);
+            this.txtPhoneMem.TabIndex = 16;
+            this.txtPhoneMem.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhoneMem_KeyPress);
+            // 
             // label8
             // 
             this.label8.BackColor = System.Drawing.Color.Transparent;
@@ -346,16 +357,6 @@ namespace POS
             this.label8.Size = new System.Drawing.Size(162, 34);
             this.label8.TabIndex = 15;
             this.label8.Text = "Member phone";
-            // 
-            // txtPhoneMem
-            // 
-            this.txtPhoneMem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.txtPhoneMem.Location = new System.Drawing.Point(16, 103);
-            this.txtPhoneMem.MaxLength = 10;
-            this.txtPhoneMem.Name = "txtPhoneMem";
-            this.txtPhoneMem.Size = new System.Drawing.Size(253, 30);
-            this.txtPhoneMem.TabIndex = 16;
-            this.txtPhoneMem.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhoneMem_KeyPress);
             // 
             // panel5
             // 
@@ -369,17 +370,18 @@ namespace POS
             this.panel5.Size = new System.Drawing.Size(418, 346);
             this.panel5.TabIndex = 30;
             // 
-            // label9
+            // lblbank
             // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(11, 21);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 34);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Payment  Method";
+            this.lblbank.BackColor = System.Drawing.Color.DimGray;
+            this.lblbank.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblbank.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblbank.ForeColor = System.Drawing.Color.White;
+            this.lblbank.Location = new System.Drawing.Point(29, 189);
+            this.lblbank.Name = "lblbank";
+            this.lblbank.Size = new System.Drawing.Size(219, 34);
+            this.lblbank.TabIndex = 29;
+            this.lblbank.Text = "      Bank Transfer";
+            this.lblbank.Click += new System.EventHandler(this.lblbank_Click);
             // 
             // lblDebit
             // 
@@ -394,18 +396,17 @@ namespace POS
             this.lblDebit.Text = "   Debit/Master Card";
             this.lblDebit.Click += new System.EventHandler(this.lblDebit_Click);
             // 
-            // lblbank
+            // label9
             // 
-            this.lblbank.BackColor = System.Drawing.Color.DimGray;
-            this.lblbank.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblbank.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.lblbank.ForeColor = System.Drawing.Color.White;
-            this.lblbank.Location = new System.Drawing.Point(29, 189);
-            this.lblbank.Name = "lblbank";
-            this.lblbank.Size = new System.Drawing.Size(219, 34);
-            this.lblbank.TabIndex = 29;
-            this.lblbank.Text = "      Bank Transfer";
-            this.lblbank.Click += new System.EventHandler(this.lblbank_Click);
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(11, 21);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(184, 34);
+            this.label9.TabIndex = 17;
+            this.label9.Text = "Payment  Method";
             // 
             // formPayment
             // 
