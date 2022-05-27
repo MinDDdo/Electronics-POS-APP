@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formRegistercs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRegistercs.Designer.cs">
+      <DependentUpon>formRegistercs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="source\Forms\Member Management\formMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="source\Forms\Member Management\formMember.Designer.cs">
+      <DependentUpon>formMember.cs</DependentUpon>
+    </Compile>
     <Compile Include="source\Forms\Debit\formDebit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +106,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formRegistercs.resx">
+      <DependentUpon>formRegistercs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="source\Forms\Member Management\formMember.resx">
+      <DependentUpon>formMember.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="source\Forms\Debit\formDebit.resx">
       <DependentUpon>formDebit.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,6 +155,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="source\Forms\Register\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

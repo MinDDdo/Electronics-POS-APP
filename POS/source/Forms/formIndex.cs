@@ -323,6 +323,13 @@ namespace POS
             }
         }
 
+        private void lblMember_Click(object sender, EventArgs e)
+        {
+            var form = new formMember();
+            form.Show();
+            this.Hide();
+        }
+
         private void fetchProductData()
         {
             try

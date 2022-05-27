@@ -133,6 +133,7 @@
             this.lblMember.Size = new System.Drawing.Size(214, 34);
             this.lblMember.TabIndex = 3;
             this.lblMember.Text = "           Member";
+            this.lblMember.Click += new System.EventHandler(this.lblMember_Click);
             // 
             // lblProducts
             // 
