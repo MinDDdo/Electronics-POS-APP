@@ -46,10 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formRegistercs.cs">
+    <Compile Include="source\Forms\MemberDetail\formMemberDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formRegistercs.Designer.cs">
+    <Compile Include="source\Forms\MemberDetail\formMemberDetail.Designer.cs">
+      <DependentUpon>formMemberDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="source\Forms\Register\formRegistercs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="source\Forms\Register\formRegistercs.Designer.cs">
       <DependentUpon>formRegistercs.cs</DependentUpon>
     </Compile>
     <Compile Include="source\Forms\Member Management\formMember.cs">
@@ -106,7 +112,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="formRegistercs.resx">
+    <EmbeddedResource Include="source\Forms\MemberDetail\formMemberDetail.resx">
+      <DependentUpon>formMemberDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="source\Forms\Register\formRegistercs.resx">
       <DependentUpon>formRegistercs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="source\Forms\Member Management\formMember.resx">
@@ -155,8 +164,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="source\Forms\Register\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

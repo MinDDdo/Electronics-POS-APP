@@ -205,7 +205,7 @@ namespace POS
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(147, 34);
             this.btnSubmit.TabIndex = 33;
-            this.btnSubmit.Text = "a";
+            this.btnSubmit.Text = "Submit";
             this.btnSubmit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
@@ -213,6 +213,7 @@ namespace POS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(709, 577);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.btnBack);
@@ -229,6 +230,7 @@ namespace POS
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.txtLname);
             this.Name = "formRegistercs";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formRegistercs";
             this.ResumeLayout(false);
             this.PerformLayout();

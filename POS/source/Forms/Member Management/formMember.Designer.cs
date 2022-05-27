@@ -57,6 +57,7 @@ namespace POS
             this.lbAccount.TabIndex = 17;
             this.lbAccount.Text = "   Go to Account";
             this.lbAccount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbAccount.Click += new System.EventHandler(this.lbAccount_Click);
             // 
             // groupBox1
             // 
