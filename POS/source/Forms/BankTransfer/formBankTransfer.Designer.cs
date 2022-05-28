@@ -44,13 +44,14 @@ namespace POS
             // 
             this.label4.BackColor = System.Drawing.Color.PaleTurquoise;
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(60, 125);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(297, 34);
             this.label4.TabIndex = 34;
-            this.label4.Text = "                    Total";
+            this.label4.Text = "Total";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel3
             // 
@@ -68,20 +69,20 @@ namespace POS
             // 
             this.lblTotal.BackColor = System.Drawing.Color.Transparent;
             this.lblTotal.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.Black;
             this.lblTotal.Location = new System.Drawing.Point(87, 89);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(183, 30);
             this.lblTotal.TabIndex = 15;
             this.lblTotal.Text = " Price";
-            this.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(11, 38);
             this.label3.Name = "label3";
@@ -93,52 +94,55 @@ namespace POS
             // 
             this.lblAmount.BackColor = System.Drawing.Color.Transparent;
             this.lblAmount.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblAmount.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount.ForeColor = System.Drawing.Color.Black;
             this.lblAmount.Location = new System.Drawing.Point(118, 37);
             this.lblAmount.Name = "lblAmount";
             this.lblAmount.Size = new System.Drawing.Size(152, 30);
             this.lblAmount.TabIndex = 16;
             this.lblAmount.Text = "100";
-            this.lblAmount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblAmount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(11, 90);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(80, 25);
+            this.label10.Size = new System.Drawing.Size(73, 34);
             this.label10.TabIndex = 16;
             this.label10.Text = "Total : ";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBack
             // 
             this.lblBack.BackColor = System.Drawing.Color.DimGray;
             this.lblBack.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblBack.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBack.ForeColor = System.Drawing.Color.White;
             this.lblBack.Location = new System.Drawing.Point(60, 48);
             this.lblBack.Name = "lblBack";
             this.lblBack.Size = new System.Drawing.Size(147, 34);
             this.lblBack.TabIndex = 35;
-            this.lblBack.Text = "       Back";
+            this.lblBack.Text = "Back";
+            this.lblBack.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblBack.Click += new System.EventHandler(this.lblBack_Click);
             // 
             // lblConfirm
             // 
             this.lblConfirm.BackColor = System.Drawing.Color.DimGray;
             this.lblConfirm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblConfirm.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblConfirm.ForeColor = System.Drawing.Color.White;
             this.lblConfirm.Location = new System.Drawing.Point(305, 329);
             this.lblConfirm.Name = "lblConfirm";
             this.lblConfirm.Size = new System.Drawing.Size(259, 34);
             this.lblConfirm.TabIndex = 36;
-            this.lblConfirm.Text = "               Confirm";
+            this.lblConfirm.Text = "Confirm";
+            this.lblConfirm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblConfirm.Click += new System.EventHandler(this.lblConfirm_Click);
             // 
             // BankTransfer

@@ -79,5 +79,12 @@ namespace POS
             }
             return true;
         }
+
+        private void lblLogout_Click(object sender, EventArgs e)
+        {
+            var form = new formLogin();
+            form.Show();
+            this.Hide();
+        }
     }
 }

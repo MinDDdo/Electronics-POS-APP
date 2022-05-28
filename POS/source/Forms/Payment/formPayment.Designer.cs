@@ -70,35 +70,37 @@ namespace POS
             // 
             this.lblBack.BackColor = System.Drawing.Color.DimGray;
             this.lblBack.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblBack.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBack.ForeColor = System.Drawing.Color.White;
             this.lblBack.Location = new System.Drawing.Point(182, 23);
             this.lblBack.Name = "lblBack";
             this.lblBack.Size = new System.Drawing.Size(147, 34);
             this.lblBack.TabIndex = 25;
-            this.lblBack.Text = "       Back";
+            this.lblBack.Text = "Back";
+            this.lblBack.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblBack.Click += new System.EventHandler(this.lblBack_Click);
             // 
             // lblOK
             // 
             this.lblOK.BackColor = System.Drawing.Color.DimGray;
             this.lblOK.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblOK.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOK.ForeColor = System.Drawing.Color.White;
             this.lblOK.Location = new System.Drawing.Point(146, 170);
             this.lblOK.Name = "lblOK";
             this.lblOK.Size = new System.Drawing.Size(123, 34);
             this.lblOK.TabIndex = 17;
-            this.lblOK.Text = "      OK";
+            this.lblOK.Text = "OK";
+            this.lblOK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblOK.Click += new System.EventHandler(this.lblOK_Click);
             // 
             // lblProduct
             // 
             this.lblProduct.AutoSize = true;
-            this.lblProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblProduct.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProduct.Location = new System.Drawing.Point(27, 23);
             this.lblProduct.Name = "lblProduct";
-            this.lblProduct.Size = new System.Drawing.Size(96, 25);
+            this.lblProduct.Size = new System.Drawing.Size(91, 34);
             this.lblProduct.TabIndex = 24;
             this.lblProduct.Text = "Payment";
             // 
@@ -106,13 +108,14 @@ namespace POS
             // 
             this.lblCash.BackColor = System.Drawing.Color.DimGray;
             this.lblCash.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblCash.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblCash.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCash.ForeColor = System.Drawing.Color.White;
             this.lblCash.Location = new System.Drawing.Point(29, 89);
             this.lblCash.Name = "lblCash";
             this.lblCash.Size = new System.Drawing.Size(219, 34);
             this.lblCash.TabIndex = 26;
-            this.lblCash.Text = "             Cash";
+            this.lblCash.Text = "Cash";
+            this.lblCash.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblCash.Click += new System.EventHandler(this.lblCash_Click);
             // 
             // groupBox1
@@ -120,7 +123,7 @@ namespace POS
             this.groupBox1.BackColor = System.Drawing.Color.PowderBlue;
             this.groupBox1.Controls.Add(this.lblMember);
             this.groupBox1.Controls.Add(this.lblProducts);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(820, 141);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(260, 426);
@@ -132,25 +135,27 @@ namespace POS
             // 
             this.lblMember.BackColor = System.Drawing.Color.DimGray;
             this.lblMember.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblMember.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblMember.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMember.ForeColor = System.Drawing.Color.White;
             this.lblMember.Location = new System.Drawing.Point(22, 85);
             this.lblMember.Name = "lblMember";
             this.lblMember.Size = new System.Drawing.Size(214, 34);
             this.lblMember.TabIndex = 3;
-            this.lblMember.Text = "   Member Manage ";
+            this.lblMember.Text = "Member Manage ";
+            this.lblMember.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblProducts
             // 
             this.lblProducts.BackColor = System.Drawing.Color.DimGray;
             this.lblProducts.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblProducts.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProducts.ForeColor = System.Drawing.Color.White;
             this.lblProducts.Location = new System.Drawing.Point(22, 39);
             this.lblProducts.Name = "lblProducts";
             this.lblProducts.Size = new System.Drawing.Size(214, 34);
             this.lblProducts.TabIndex = 3;
-            this.lblProducts.Text = "           Product";
+            this.lblProducts.Text = "Product";
+            this.lblProducts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
             // 
@@ -159,6 +164,7 @@ namespace POS
             this.panel1.Controls.Add(this.lblID);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
+            this.panel1.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(820, 23);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(259, 107);
@@ -166,7 +172,7 @@ namespace POS
             // 
             // lblname
             // 
-            this.lblname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblname.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblname.Location = new System.Drawing.Point(89, 61);
             this.lblname.Name = "lblname";
             this.lblname.Size = new System.Drawing.Size(167, 35);
@@ -175,7 +181,7 @@ namespace POS
             // 
             // lblID
             // 
-            this.lblID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblID.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblID.Location = new System.Drawing.Point(65, 22);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(167, 35);
@@ -185,20 +191,20 @@ namespace POS
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(13, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 25);
+            this.label2.Size = new System.Drawing.Size(74, 34);
             this.label2.TabIndex = 0;
             this.label2.Text = "Name :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(13, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 25);
+            this.label1.Size = new System.Drawing.Size(46, 34);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID :";
             // 
@@ -206,13 +212,14 @@ namespace POS
             // 
             this.lblLogout.BackColor = System.Drawing.Color.DimGray;
             this.lblLogout.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblLogout.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogout.ForeColor = System.Drawing.Color.White;
             this.lblLogout.Location = new System.Drawing.Point(652, 23);
             this.lblLogout.Name = "lblLogout";
             this.lblLogout.Size = new System.Drawing.Size(132, 34);
             this.lblLogout.TabIndex = 16;
-            this.lblLogout.Text = "     Log out";
+            this.lblLogout.Text = "Log out";
+            this.lblLogout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblLogout.Click += new System.EventHandler(this.lblLogout_Click);
             // 
             // panel3
@@ -222,6 +229,7 @@ namespace POS
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.lblAmount);
             this.panel3.Controls.Add(this.label10);
+            this.panel3.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel3.Location = new System.Drawing.Point(32, 115);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(297, 145);
@@ -231,7 +239,7 @@ namespace POS
             // 
             this.lblTotal.BackColor = System.Drawing.Color.Transparent;
             this.lblTotal.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.Black;
             this.lblTotal.Location = new System.Drawing.Point(87, 89);
             this.lblTotal.Name = "lblTotal";
@@ -244,7 +252,7 @@ namespace POS
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(11, 38);
             this.label3.Name = "label3";
@@ -256,7 +264,7 @@ namespace POS
             // 
             this.lblAmount.BackColor = System.Drawing.Color.Transparent;
             this.lblAmount.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblAmount.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmount.ForeColor = System.Drawing.Color.Black;
             this.lblAmount.Location = new System.Drawing.Point(118, 37);
             this.lblAmount.Name = "lblAmount";
@@ -270,11 +278,11 @@ namespace POS
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(11, 90);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(80, 25);
+            this.label10.Size = new System.Drawing.Size(73, 34);
             this.label10.TabIndex = 16;
             this.label10.Text = "Total : ";
             // 
@@ -282,19 +290,21 @@ namespace POS
             // 
             this.label4.BackColor = System.Drawing.Color.PaleTurquoise;
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(32, 78);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(297, 34);
             this.label4.TabIndex = 28;
-            this.label4.Text = "                    Total";
+            this.label4.Text = "Total";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LemonChiffon;
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.lblMemname);
+            this.panel2.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(366, 78);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(418, 104);
@@ -304,7 +314,7 @@ namespace POS
             // 
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(11, 38);
             this.label7.Name = "label7";
@@ -316,7 +326,7 @@ namespace POS
             // 
             this.lblMemname.BackColor = System.Drawing.Color.Transparent;
             this.lblMemname.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblMemname.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblMemname.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMemname.ForeColor = System.Drawing.Color.Black;
             this.lblMemname.Location = new System.Drawing.Point(118, 37);
             this.lblMemname.Name = "lblMemname";
@@ -331,6 +341,7 @@ namespace POS
             this.panel4.Controls.Add(this.txtPhoneMem);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.lblOK);
+            this.panel4.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel4.Location = new System.Drawing.Point(32, 278);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(297, 273);
@@ -338,11 +349,11 @@ namespace POS
             // 
             // txtPhoneMem
             // 
-            this.txtPhoneMem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.txtPhoneMem.Location = new System.Drawing.Point(16, 103);
+            this.txtPhoneMem.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhoneMem.Location = new System.Drawing.Point(17, 102);
             this.txtPhoneMem.MaxLength = 10;
             this.txtPhoneMem.Name = "txtPhoneMem";
-            this.txtPhoneMem.Size = new System.Drawing.Size(253, 30);
+            this.txtPhoneMem.Size = new System.Drawing.Size(253, 37);
             this.txtPhoneMem.TabIndex = 16;
             this.txtPhoneMem.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPhoneMem_KeyPress);
             // 
@@ -350,9 +361,9 @@ namespace POS
             // 
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(11, 53);
+            this.label8.Location = new System.Drawing.Point(11, 65);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(162, 34);
             this.label8.TabIndex = 15;
@@ -365,6 +376,7 @@ namespace POS
             this.panel5.Controls.Add(this.lblDebit);
             this.panel5.Controls.Add(this.label9);
             this.panel5.Controls.Add(this.lblCash);
+            this.panel5.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel5.Location = new System.Drawing.Point(366, 205);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(418, 346);
@@ -374,33 +386,35 @@ namespace POS
             // 
             this.lblbank.BackColor = System.Drawing.Color.DimGray;
             this.lblbank.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblbank.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblbank.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblbank.ForeColor = System.Drawing.Color.White;
             this.lblbank.Location = new System.Drawing.Point(29, 189);
             this.lblbank.Name = "lblbank";
             this.lblbank.Size = new System.Drawing.Size(219, 34);
             this.lblbank.TabIndex = 29;
-            this.lblbank.Text = "      Bank Transfer";
+            this.lblbank.Text = "Bank Transfer";
+            this.lblbank.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblbank.Click += new System.EventHandler(this.lblbank_Click);
             // 
             // lblDebit
             // 
             this.lblDebit.BackColor = System.Drawing.Color.DimGray;
             this.lblDebit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblDebit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.lblDebit.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDebit.ForeColor = System.Drawing.Color.White;
             this.lblDebit.Location = new System.Drawing.Point(29, 138);
             this.lblDebit.Name = "lblDebit";
             this.lblDebit.Size = new System.Drawing.Size(219, 34);
             this.lblDebit.TabIndex = 27;
-            this.lblDebit.Text = "   Debit/Master Card";
+            this.lblDebit.Text = "Debit/Master Card";
+            this.lblDebit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblDebit.Click += new System.EventHandler(this.lblDebit_Click);
             // 
             // label9
             // 
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
             this.label9.Location = new System.Drawing.Point(11, 21);
             this.label9.Name = "label9";

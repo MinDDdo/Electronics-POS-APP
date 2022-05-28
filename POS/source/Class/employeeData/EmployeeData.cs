@@ -11,5 +11,6 @@ namespace POS
         public static string empID;
         public static string empFname;
         public static string empLname;
+        public static string empPosition;
     }
 }

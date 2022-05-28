@@ -49,7 +49,7 @@ namespace POS
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(153, 250);
             this.label4.Name = "label4";
@@ -60,31 +60,31 @@ namespace POS
             // 
             // txtLname
             // 
-            this.txtLname.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLname.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLname.Location = new System.Drawing.Point(158, 292);
             this.txtLname.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.txtLname.MaxLength = 200;
             this.txtLname.Name = "txtLname";
-            this.txtLname.Size = new System.Drawing.Size(360, 34);
+            this.txtLname.Size = new System.Drawing.Size(360, 37);
             this.txtLname.TabIndex = 31;
             // 
             // txtFname
             // 
-            this.txtFname.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFname.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFname.Location = new System.Drawing.Point(158, 196);
             this.txtFname.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.txtFname.MaxLength = 200;
             this.txtFname.Name = "txtFname";
-            this.txtFname.Size = new System.Drawing.Size(360, 34);
+            this.txtFname.Size = new System.Drawing.Size(360, 37);
             this.txtFname.TabIndex = 31;
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(162, 155);
+            this.label1.Location = new System.Drawing.Point(153, 155);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(188, 38);
             this.label1.TabIndex = 32;
@@ -92,21 +92,21 @@ namespace POS
             // 
             // txtAddress
             // 
-            this.txtAddress.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddress.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAddress.Location = new System.Drawing.Point(158, 388);
             this.txtAddress.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.txtAddress.MaxLength = 200;
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(360, 34);
+            this.txtAddress.Size = new System.Drawing.Size(360, 37);
             this.txtAddress.TabIndex = 31;
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(162, 346);
+            this.label2.Location = new System.Drawing.Point(153, 347);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(188, 38);
             this.label2.TabIndex = 32;
@@ -114,19 +114,19 @@ namespace POS
             // 
             // txtPhone
             // 
-            this.txtPhone.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhone.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhone.Location = new System.Drawing.Point(158, 103);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.txtPhone.MaxLength = 10;
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(360, 34);
+            this.txtPhone.Size = new System.Drawing.Size(360, 37);
             this.txtPhone.TabIndex = 31;
             // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(153, 61);
             this.label3.Name = "label3";
@@ -137,21 +137,21 @@ namespace POS
             // 
             // txtEmail
             // 
-            this.txtEmail.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.Location = new System.Drawing.Point(158, 490);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.txtEmail.MaxLength = 200;
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(360, 34);
+            this.txtEmail.Size = new System.Drawing.Size(360, 37);
             this.txtEmail.TabIndex = 31;
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(162, 448);
+            this.label5.Location = new System.Drawing.Point(153, 449);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(188, 38);
             this.label5.TabIndex = 32;
@@ -161,9 +161,9 @@ namespace POS
             // 
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(162, 250);
+            this.label6.Location = new System.Drawing.Point(153, 250);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(188, 38);
             this.label6.TabIndex = 32;
@@ -173,9 +173,9 @@ namespace POS
             // 
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(162, 61);
+            this.label7.Location = new System.Drawing.Point(152, 62);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(188, 38);
             this.label7.TabIndex = 32;
@@ -185,7 +185,7 @@ namespace POS
             // 
             this.btnBack.BackColor = System.Drawing.Color.DimGray;
             this.btnBack.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.ForeColor = System.Drawing.Color.White;
             this.btnBack.Location = new System.Drawing.Point(12, 18);
             this.btnBack.Name = "btnBack";
@@ -199,13 +199,13 @@ namespace POS
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.DimGray;
             this.btnSubmit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.btnSubmit.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
             this.btnSubmit.Location = new System.Drawing.Point(550, 525);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(147, 34);
             this.btnSubmit.TabIndex = 33;
-            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.Text = "SUBMIT";
             this.btnSubmit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 

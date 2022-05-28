@@ -40,11 +40,21 @@ namespace POS
                     EmployeeData.empID = dr[0]["emp_id"].ToString();
                     EmployeeData.empFname = dr[0]["fname"].ToString();
                     EmployeeData.empLname = dr[0]["lname"].ToString();
+                    EmployeeData.empPosition = dr[0]["position"].ToString();
 
                     DBConfig.conn.Close();
-                    var Index = new formIndex();
-                    Index.Show();
-                    this.Hide();
+                    if(EmployeeData.empPosition == "manager")
+                    {
+                        var report = new formReport();
+                        report.Show();
+                        this.Hide();
+                    }
+                    if(EmployeeData.empPosition == "saleman")
+                    {
+                        var Index = new formIndex();
+                        Index.Show();
+                        this.Hide();
+                    }
                 }
                 catch (Exception ex)
                 {
